@@ -1,0 +1,65 @@
+.login-form {
+  max-width: 300px;
+}
+
+.imgDiv {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 40px;
+}
+
+.login-form-margin {
+  margin-bottom: 26px;
+  background-color: #001d3d;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.child {
+  /* border: 2px solid black; */
+  padding: 50px;
+  position: absolute;
+  width: 400px;
+  background-color: #001d3d;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #001d3d;
+  box-shadow: 1px 1px 15px -7px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-bottom: 32px;
+}
+
+.parent {
+  width: 100%;
+  height: 91vh;
+  position: relative;
+  // background-image: url("https://enterprisersproject.com/sites/default/files/styles/google_discover/public/images/CIO%20Decisions_0.png?itok=Cdu8s3GI");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+button {
+  background-color: blue;
+  border: none;
+}
+.do1 {
+  margin-left: 110px;
+  margin-top: auto;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+.do2 {
+  margin-top: auto;
+  margin-left: 25px;
+  border-radius: 5px;
+
+  margin-bottom: 25px;
+}
