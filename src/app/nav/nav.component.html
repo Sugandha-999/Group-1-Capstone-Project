@@ -59,7 +59,12 @@
 <div *ngIf="isUserLoggedIn">
   <nz-header class="main-header" nz-row nzType="flex">
     <div class="do2">
-      <a routerLink="" style="margin-left: 650px"> DoConnect </a>
+      <a
+        routerLink=""
+        style="margin-left: 10px; font-weight: bold; font-size: 20px"
+      >
+        DoConnect
+      </a>
     </div>
     <div class="nav-links">
       <a
@@ -69,6 +74,8 @@
         routerLinkActive="active"
         >Dashboard</a
       >
+      <span style="padding-right: 5px"></span>
+
       <a
         nz-button
         nzType="link"
@@ -76,9 +83,12 @@
         routerLinkActive="active"
         >Post Question</a
       >
+      <span style="padding-right: 5px"></span>
+
       <a nz-button nzType="link" routerLink="/chatbox" routerLinkActive="active"
         >Chatbox</a
       >
+      <span style="padding-right: 5px"></span>
 
       <a nz-button nzType="link" (click)="logout()" routerLinkActive="active"
         >Logout</a

@@ -1,31 +1,40 @@
 .footer {
-    background-color: rgb(16, 12, 12);
-    padding: 12px 47px;
+  background-color: rgb(16, 12, 12);
+  padding: 12px 47px;
 
-  
-    a {
+  height: 50px; // Replace with the height your footer should be
+  width: 100%; // Don't change
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+  left: 0pt;
+
+  a {
     //   font-family: $secondary-font;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 20px;
-    }
-  
-    i {
-      margin-left: 22px;
-        font-size: 18px;
-        color: #9CA3AF;
-    }
-  }
-  
-  .powered-by {
-    // font-family: $secondary-font;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 16px;
     line-height: 20px;
-    color: white !important;
-    // color: $color-transparent-seven;
   }
 
-  ::ng-deep.ant-typography {
-    color: #9CA3AF;
+  i {
+    margin-left: 22px;
+    font-size: 18px;
+    color: #9ca3af;
   }
+}
+
+.powered-by {
+  // font-family: $secondary-font;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 20px;
+  color: white !important;
+  // color: $color-transparent-seven;
+}
+
+::ng-deep.ant-typography {
+  color: #9ca3af;
+}

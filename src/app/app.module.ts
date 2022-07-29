@@ -16,6 +16,7 @@ import { SignupComponent } from './signup/signup.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { ChatboxComponent } from './chatbox/chatbox.component';
+import { HomeComponent } from './home/home.component';
 
 registerLocaleData(en);
 
@@ -27,6 +28,7 @@ registerLocaleData(en);
     NavComponent,
     FooterComponent,
     ChatboxComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
