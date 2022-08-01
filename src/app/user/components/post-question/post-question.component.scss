@@ -33,7 +33,11 @@ nz-form-control {
   width: 100%;
   height: 91vh;
   position: relative;
-  // background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Android-L-Material-Design-Pictures-HD.png");
+  // background-image: url("../../assets/img7.png");
+  //background-image: url("../../../../assets/img8.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("https://cdn.pixabay.com/photo/2018/09/18/17/27/questions-3686724_1280.png");
   // background-image: url("https://images.pexels.com/photos/6373289/pexels-photo-6373289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
@@ -50,7 +54,7 @@ nz-form-control {
 }
 
 button {
-  background-color: #1e90ff;
+  background-color: #001d3d;
   border: none;
 }
 
