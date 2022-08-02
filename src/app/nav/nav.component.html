@@ -1,7 +1,7 @@
 <div *ngIf="!isUserLoggedIn && !isAdminLoggedIn">
   <nz-header class="main-header" nz-row nzType="flex">
     <div>
-      <!-- <img src="../../assets/logo.png" alt="" height="3%" width="3%" /> -->
+      <!-- <img src="../../assets/logo_2.png" alt="" /> -->
       <a
         routerLink=""
         style="margin-left: 10px; font-weight: bold; font-size: 20px"
@@ -171,7 +171,12 @@
   <nz-header class="main-header" nz-row nzType="flex">
     <div>
       <!-- <img src="https://cdn.doconnect.fr/wp-content/uploads/2021/10/logo-doconnect-e-reputation-scaled.jpg"> -->
-      <a routerLink="" style="margin-left: 5px"> DoConnect </a>
+      <a
+        routerLink=""
+        style="margin-left: 10px; font-weight: bold; font-size: 20px"
+      >
+        DoConnect
+      </a>
     </div>
     <div class="nav-links">
       <a
@@ -181,6 +186,8 @@
         routerLinkActive="active"
         >Dashboard</a
       >
+      <span style="padding-right: 5px"></span>
+
       <a nz-button nzType="link" routerLink="/chatbox" routerLinkActive="active"
         >Chatbox</a
       >
@@ -196,9 +203,12 @@
                   <li nz-menu-item routerLink="/user/search-answer" routerLinkActive="active">Search Answer</li>
                 </ul>
               </nz-dropdown-menu> -->
+      <span style="padding-right: 5px"></span>
+
       <a nz-button nzType="link" (click)="logout()" routerLinkActive="active"
         >Logout</a
       >
+      <span style="padding-right: 5px"></span>
     </div>
   </nz-header>
 
