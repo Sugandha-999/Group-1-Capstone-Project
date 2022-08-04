@@ -1,12 +1,11 @@
-package com.example.websocketdemo.model;
+package com.wipro.websocketdemo.model;
 
-/**
- * Created by rajeevkumarsingh on 24/07/17.
- */
+
 public class ChatMessage {
     private MessageType type;
     private String content;
     private String sender;
+    
 
     public enum MessageType {
         CHAT,

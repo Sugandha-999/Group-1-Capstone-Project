@@ -1,15 +1,14 @@
-package com.example.websocketdemo.controller;
+package com.wipro.websocketdemo.controller;
 
-import com.example.websocketdemo.model.ChatMessage;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
 
-/**
- * Created by rajeevkumarsingh on 24/07/17.
- */
+import com.wipro.websocketdemo.model.ChatMessage;
+
+
 @Controller
 public class ChatController {
 
